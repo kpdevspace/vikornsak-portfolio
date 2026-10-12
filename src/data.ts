@@ -1,6 +1,6 @@
 export const profile = {
   name: 'Vikornsak Raknoo', email: 'vikornsak@gmail.com', location: 'Nakhon Pathom, Thailand',
-  intro: 'I turn complex challenges into useful software — connecting people, processes and technology.',
+  intro: 'I lead the Digital Innovation and Information Data Division at ONESQA, connecting technology, data and AI to support education quality assessment.',
 }
 export type Project = { id: string; title: string; client: string; category: 'Enterprise' | 'Research' | 'Healthcare'; summary: string; detail: string; stack: string[]; visual: string; scope: string[] }
 export const projects: Project[] = [
@@ -20,7 +20,7 @@ export const experience = [
  {period:'2005 — 2007',role:'Programmer',org:'Nexbyte Co., Ltd.',text:'Modernized a garment-industry ERP into a .NET web application, developed SQL Server queries and reports, and supported server infrastructure.'},
 ]
 export const expertise = [
- {title:'Software engineering',icon:'code',text:'Web and mobile applications, from requirements and architecture to implementation.',skills:['.NET / ASP.NET','React','Swift','Flutter','Java','Python']},
- {title:'Data & cloud',icon:'database',text:'Database-backed platforms, reporting and cloud infrastructure for practical business needs.',skills:['SQL Server','MySQL','Firebase','Azure','Google Cloud','Power BI']},
- {title:'Technology leadership',icon:'compass',text:'Aligning software projects with people, business processes and organizational goals.',skills:['Project management','Systems analysis','ISO/IEC 29110','Training & mentoring']},
+ {title:'Digital innovation',icon:'lightbulb',text:'Connecting organizational needs with technology strategy, practical software and well-defined workflows.',skills:['Technology leadership','Product & service design','Enterprise systems','Process improvement']},
+ {title:'Data & intelligence',icon:'database',text:'Designing data architecture, reporting and information systems that make evidence easier to use and understand.',skills:['Data architecture','SQL Server','Power BI','Reporting systems','Data governance']},
+ {title:'AI & automation',icon:'brain',text:'Developing document-processing tools and exploring AI-assisted analysis with traceable evidence and human review.',skills:['Document intelligence','Conversational data','Federated learning','Human-in-the-loop']},
 ]
