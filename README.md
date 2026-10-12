@@ -20,9 +20,9 @@ npm run preview
 
 ## GitHub Pages
 
-Repository: https://github.com/Vikornsak/vikornsak-portfolio
+Repository: https://github.com/kpdevspace/vikornsak-portfolio
 
-Expected URL: https://vikornsak.github.io/vikornsak-portfolio/
+Expected URL: https://kpdevspace.github.io/vikornsak-portfolio/
 
 1. Open the repository's **Settings → Pages**.
 2. Select **GitHub Actions** as the build and deployment source.
