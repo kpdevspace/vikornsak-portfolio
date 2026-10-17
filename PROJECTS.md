@@ -32,6 +32,8 @@ Create learning pathways, reusable engineering patterns and accessible tools for
 
 ## Project directory
 
+Each website entry opens a project-detail dialog with a closable image gallery. Archived screenshots are used where available; other images are explicitly labeled workflow concepts and capability maps. These illustrations are not runtime verification.
+
 ### KP Enterprise ERP
 
 **Enterprise systems · Development** | Sources: GitHub, Codex

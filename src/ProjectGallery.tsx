@@ -15,9 +15,9 @@ function ImageViewer({images,index,onMove,onClose}:{images:{file:string;caption:
  const current=images[index]
  return <dialog ref={ref} className="image-viewer" aria-label="Enlarged project screenshot" onCancel={e=>{e.preventDefault();e.stopPropagation();onClose()}} onClick={e=>{if(e.target===e.currentTarget)onClose()}} onKeyDown={e=>{e.stopPropagation();if(e.key==='ArrowRight'||e.key==='ArrowLeft'){e.preventDefault();onMove(e.key==='ArrowRight'?1:-1)}}}><div className="viewer-header"><p>{current.caption}</p><button className="icon-button" aria-label="Close enlarged screenshot" onClick={onClose} autoFocus><X/></button></div><div className="viewer-image"><img src={`${import.meta.env.BASE_URL}projects/${current.file}`} alt={current.caption}/></div><div className="viewer-controls">{images.length>1&&<button className="button button-outline" onClick={()=>onMove(-1)} aria-label="Previous enlarged screenshot"><ChevronLeft size={18}/>Previous</button>}<span role="status">{index+1} / {images.length}</span>{images.length>1&&<button className="button button-outline" onClick={()=>onMove(1)} aria-label="Next enlarged screenshot">Next<ChevronRight size={18}/></button>}</div></dialog>
 }
-export function ProjectGallery({projectId}: {projectId:string}) {
+export function ProjectGallery({projectId, images: suppliedImages}: {projectId?:string; images?:{file:string;caption:string}[]}) {
  const [index,setIndex]=useState(0),[enlarged,setEnlarged]=useState(false)
- const images=projectImages[projectId],current=images[index]
+ const images=suppliedImages ?? projectImages[projectId!],current=images[index]
  const url=(file:string)=>`${import.meta.env.BASE_URL}projects/${file}`
  function move(step:number){setIndex(i=>(i+step+images.length)%images.length)}
  return <section className="project-gallery" aria-label="Project screenshots" onKeyDown={e=>{if(images.length>1&&(e.key==='ArrowRight'||e.key==='ArrowLeft')){e.preventDefault();move(e.key==='ArrowRight'?1:-1)}}}>

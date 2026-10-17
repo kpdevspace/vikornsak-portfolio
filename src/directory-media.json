@@ -1,0 +1,262 @@
+{
+  "kp-erp": [
+    {
+      "file": "directory/kp-erp-reports.png",
+      "caption": "Archived development screenshot — reporting and data analytics"
+    },
+    {
+      "file": "directory/kp-erp-workflow.svg",
+      "caption": "Concept diagram — KP Enterprise ERP workflow; not an application screenshot"
+    }
+  ],
+  "kp-mobile": [
+    {
+      "file": "directory/kp-mobile-workflow.svg",
+      "caption": "Concept diagram — KP Mobile Suites workflow; not an application screenshot"
+    },
+    {
+      "file": "directory/kp-mobile-capabilities.svg",
+      "caption": "Capability map — KP Mobile Suites; not an application screenshot"
+    }
+  ],
+  "careone": [
+    {
+      "file": "directory/careone-patient-demo.png",
+      "caption": "Development screenshot — patient timeline with explicitly labeled test data"
+    },
+    {
+      "file": "directory/careone-mobile-menu.png",
+      "caption": "Development screenshot — mobile pharmacy navigation"
+    },
+    {
+      "file": "directory/careone-workflow.svg",
+      "caption": "Concept diagram — CareOne Clinic Backoffice workflow; not an application screenshot"
+    }
+  ],
+  "eqa": [
+    {
+      "file": "directory/eqa-extraction.png",
+      "caption": "Archived application screenshot — extraction job with no uploaded school records"
+    },
+    {
+      "file": "directory/eqa-architecture.png",
+      "caption": "Existing project architecture document — not an application screenshot"
+    },
+    {
+      "file": "directory/eqa-workflow.svg",
+      "caption": "Concept diagram — EQA SAR Extractor workflow; not an application screenshot"
+    }
+  ],
+  "solas": [
+    {
+      "file": "directory/solas-compare.png",
+      "caption": "Prototype screenshot — English provider comparison with fictional demo packages"
+    },
+    {
+      "file": "directory/solas-explore.png",
+      "caption": "Prototype screenshot — Thai provider discovery with fictional demo providers"
+    },
+    {
+      "file": "directory/solas-mobile.png",
+      "caption": "Prototype screenshot — mobile provider discovery with demo data"
+    },
+    {
+      "file": "directory/solas-workflow.svg",
+      "caption": "Concept diagram — SolaS — Solar Service Platform workflow; not an application screenshot"
+    }
+  ],
+  "ssri": [
+    {
+      "file": "directory/ssri-workflow.svg",
+      "caption": "Concept diagram — Self-Service Report Intelligence workflow; not an application screenshot"
+    },
+    {
+      "file": "directory/ssri-capabilities.svg",
+      "caption": "Capability map — Self-Service Report Intelligence; not an application screenshot"
+    }
+  ],
+  "gov-ea": [
+    {
+      "file": "directory/gov-ea-workflow.svg",
+      "caption": "Concept diagram — KP-GovEA Architecture Portal workflow; not an application screenshot"
+    },
+    {
+      "file": "directory/gov-ea-capabilities.svg",
+      "caption": "Capability map — KP-GovEA Architecture Portal; not an application screenshot"
+    }
+  ],
+  "meta-bpmn": [
+    {
+      "file": "directory/meta-bpmn-workflow.svg",
+      "caption": "Concept diagram — AI-Assisted Assessment Governance workflow; not an application screenshot"
+    },
+    {
+      "file": "directory/meta-bpmn-capabilities.svg",
+      "caption": "Capability map — AI-Assisted Assessment Governance; not an application screenshot"
+    }
+  ],
+  "data-blueprint": [
+    {
+      "file": "directory/data-blueprint-workflow.svg",
+      "caption": "Concept diagram — Education Data Architecture Blueprint workflow; not an application screenshot"
+    },
+    {
+      "file": "directory/data-blueprint-capabilities.svg",
+      "caption": "Capability map — Education Data Architecture Blueprint; not an application screenshot"
+    }
+  ],
+  "ai-native": [
+    {
+      "file": "directory/ai-native-workflow.svg",
+      "caption": "Concept diagram — AI-Native Digital Business Platform workflow; not an application screenshot"
+    },
+    {
+      "file": "directory/ai-native-capabilities.svg",
+      "caption": "Capability map — AI-Native Digital Business Platform; not an application screenshot"
+    }
+  ],
+  "data-chatbot": [
+    {
+      "file": "directory/data-chatbot-workflow.svg",
+      "caption": "Concept diagram — Data Chatbot MVP workflow; not an application screenshot"
+    },
+    {
+      "file": "directory/data-chatbot-capabilities.svg",
+      "caption": "Capability map — Data Chatbot MVP; not an application screenshot"
+    }
+  ],
+  "voice-ai": [
+    {
+      "file": "directory/voice-ai-workflow.svg",
+      "caption": "Concept diagram — Voice AI Low-Latency Template workflow; not an application screenshot"
+    },
+    {
+      "file": "directory/voice-ai-capabilities.svg",
+      "caption": "Capability map — Voice AI Low-Latency Template; not an application screenshot"
+    }
+  ],
+  "med-ai": [
+    {
+      "file": "directory/med-ai-workflow.svg",
+      "caption": "Concept diagram — Med AI Connect workflow; not an application screenshot"
+    },
+    {
+      "file": "directory/med-ai-capabilities.svg",
+      "caption": "Capability map — Med AI Connect; not an application screenshot"
+    }
+  ],
+  "ncd-learning": [
+    {
+      "file": "directory/ncd-learning-workflow.svg",
+      "caption": "Concept diagram — NCD Learning & Webinar Platform workflow; not an application screenshot"
+    },
+    {
+      "file": "directory/ncd-learning-capabilities.svg",
+      "caption": "Capability map — NCD Learning & Webinar Platform; not an application screenshot"
+    }
+  ],
+  "swift-missions": [
+    {
+      "file": "directory/swift-missions-workflow.svg",
+      "caption": "Concept diagram — Build 1 Real App in 10 Missions workflow; not an application screenshot"
+    },
+    {
+      "file": "directory/swift-missions-capabilities.svg",
+      "caption": "Capability map — Build 1 Real App in 10 Missions; not an application screenshot"
+    }
+  ],
+  "space-weather": [
+    {
+      "file": "directory/space-weather-dashboard.png",
+      "caption": "Repository screenshot — Space Weather dashboard shell before data loads"
+    },
+    {
+      "file": "directory/space-weather-workflow.svg",
+      "caption": "Concept diagram — Space Weather Early Warning Demo workflow; not an application screenshot"
+    }
+  ],
+  "flask-erp": [
+    {
+      "file": "directory/flask-erp-workflow.svg",
+      "caption": "Concept diagram — ERP Flask Skeleton workflow; not an application screenshot"
+    },
+    {
+      "file": "directory/flask-erp-capabilities.svg",
+      "caption": "Capability map — ERP Flask Skeleton; not an application screenshot"
+    }
+  ],
+  "htmx": [
+    {
+      "file": "directory/htmx-workflow.svg",
+      "caption": "Concept diagram — .NET MVC + htmx Multi-Card Forms workflow; not an application screenshot"
+    },
+    {
+      "file": "directory/htmx-capabilities.svg",
+      "caption": "Capability map — .NET MVC + htmx Multi-Card Forms; not an application screenshot"
+    }
+  ],
+  "competency": [
+    {
+      "file": "directory/competency-workflow.svg",
+      "caption": "Concept diagram — Competency Assessment Prototype workflow; not an application screenshot"
+    },
+    {
+      "file": "directory/competency-capabilities.svg",
+      "caption": "Capability map — Competency Assessment Prototype; not an application screenshot"
+    }
+  ],
+  "performance": [
+    {
+      "file": "directory/performance-workflow.svg",
+      "caption": "Concept diagram — Employee Performance Management workflow; not an application screenshot"
+    },
+    {
+      "file": "directory/performance-capabilities.svg",
+      "caption": "Capability map — Employee Performance Management; not an application screenshot"
+    }
+  ],
+  "prompt-km": [
+    {
+      "file": "directory/prompt-km-workflow.svg",
+      "caption": "Concept diagram — Prompt Knowledge Management workflow; not an application screenshot"
+    },
+    {
+      "file": "directory/prompt-km-capabilities.svg",
+      "caption": "Capability map — Prompt Knowledge Management; not an application screenshot"
+    }
+  ],
+  "course-reg": [
+    {
+      "file": "directory/course-reg-workflow.svg",
+      "caption": "Concept diagram — Online Course Registration workflow; not an application screenshot"
+    },
+    {
+      "file": "directory/course-reg-capabilities.svg",
+      "caption": "Capability map — Online Course Registration; not an application screenshot"
+    }
+  ],
+  "kpi-dashboard": [
+    {
+      "file": "directory/kpi-dashboard-workflow.svg",
+      "caption": "Concept diagram — Strategy & KPI Dashboard workflow; not an application screenshot"
+    },
+    {
+      "file": "directory/kpi-dashboard-capabilities.svg",
+      "caption": "Capability map — Strategy & KPI Dashboard; not an application screenshot"
+    }
+  ],
+  "portfolio": [
+    {
+      "file": "directory/portfolio-home.png",
+      "caption": "Portfolio screenshot — desktop homepage and ONESQA introduction"
+    },
+    {
+      "file": "directory/portfolio-about-mobile.png",
+      "caption": "Portfolio screenshot — mobile About and capabilities"
+    },
+    {
+      "file": "directory/portfolio-workflow.svg",
+      "caption": "Concept diagram — Vikornsak Portfolio workflow; not an application screenshot"
+    }
+  ]
+}

@@ -57,3 +57,7 @@ Features: mobile navigation, project category filters, accessible native project
 
 - Tailwind Vite integration: https://tailwindcss.com/docs/installation/using-vite
 - Vite GitHub Pages deployment: https://vite.dev/guide/static-deploy.html
+
+## Project directory images
+
+All 24 directory projects open a detail dialog with a reusable screenshot/diagram gallery and a closable enlarged viewer. `src/directory-media.json` maps the images; `src/DirectoryDialog.tsx` renders project approach, capabilities, evidence and source links. Archived development screenshots are used for KP ERP, CareOne (test records), EQA, SolaS (fictional demo providers), the public Space Weather demo and this portfolio. Other entries use explicitly labeled workflow concepts and capability maps based on the documented project summaries. The illustrations are not screenshots or proof of runtime integration. Existing Selected Work illustrations and historical galleries are retained.
