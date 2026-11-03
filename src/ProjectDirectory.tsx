@@ -1,10 +1,13 @@
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { ArrowDown, ArrowUpRight, Search, X } from 'lucide-react'
 import { catalogue, directions, type Area, type Source, type CatalogueProject } from './catalogue'
 import { DirectoryDialog, directoryImages } from './DirectoryDialog'
 
 export function ProjectDirectory() {
  const [selected,setSelected]=useState<CatalogueProject|null>(null)
+ useEffect(()=>{const openLinkedProject=()=>{const [section,params]=window.location.hash.slice(1).split('?');if(section!=='projects'||!params)return;const id=new URLSearchParams(params).get('project');const project=catalogue.find(p=>p.id===id);if(project)setSelected(project)};openLinkedProject();window.addEventListener('hashchange',openLinkedProject);return()=>window.removeEventListener('hashchange',openLinkedProject)},[])
+ function closeProject(){setSelected(null);if(window.location.hash.startsWith('#projects?project='))window.history.replaceState(null,'','#projects')}
+
  const [area,setArea]=useState<Area | 'All areas'>('All areas')
  const [source,setSource]=useState<Source | 'All sources'>('All sources')
  const [query,setQuery]=useState('')
@@ -18,5 +21,5 @@ export function ProjectDirectory() {
  <div className="directory-list">{filtered.slice(0,limit).map(p=><article key={p.id} className="directory-project"><button className="directory-open" onClick={()=>setSelected(p)} aria-label={`View project images and details: ${p.name}`}><div className="directory-preview"><img src={`${import.meta.env.BASE_URL}projects/${directoryImages[p.id][0].file}`} alt={directoryImages[p.id][0].caption} loading="lazy"/><span>{directoryImages[p.id][0].file.endsWith('.svg')?'Concept diagram':'Project image'} · {directoryImages[p.id].length} images</span></div><div className="directory-project-main"><div className="directory-project-label"><span className="eyebrow">{p.area}</span><span className={`status-badge status-${p.status.toLowerCase()}`}>{p.status}</span></div><h3>{p.name}</h3><p>{p.summary}</p><div className="directory-sources">{p.sources.map(s=><span key={s}>{s}</span>)}</div><span className="directory-view-label">View images & project details <ArrowUpRight size={15}/></span></div></button></article>)}</div>
  {filtered.length===0&&<div className="directory-empty"><h3>No matching projects</h3><p>Try a different keyword, capability or source.</p><button className="button button-outline" onClick={reset}>Show all projects</button></div>}
  {filtered.length>limit&&<div className="directory-more"><button className="button button-outline" onClick={()=>setLimit(n=>n+8)}>Show more projects ({filtered.length-limit} remaining) <ArrowDown size={16}/></button></div>}
- <div className="directory-footnote"><p>Selected, documented projects · Image gallery added 17 October 2026</p><p>Development = implementation work. Prototype = MVP or experiment. Concept = architecture or planning. Learning = teaching or reusable examples. Live = this deployed portfolio. Capability descriptions summarize the work shown; they are not certifications. Chat-based projects include AI-assisted ideation and development. Forked repositories are excluded.</p></div></div>{selected&&<DirectoryDialog project={selected} onClose={()=>setSelected(null)}/>}</section>
+ <div className="directory-footnote"><p>Selected, documented projects · Image gallery added 17 October 2026</p><p>Development = implementation work. Prototype = MVP or experiment. Concept = architecture or planning. Learning = teaching or reusable examples. Live = this deployed portfolio. Capability descriptions summarize the work shown; they are not certifications. Chat-based projects include AI-assisted ideation and development. Forked repositories are excluded.</p></div></div>{selected&&<DirectoryDialog project={selected} onClose={closeProject}/>}</section>
 }

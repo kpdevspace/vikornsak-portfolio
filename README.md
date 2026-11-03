@@ -61,3 +61,7 @@ Features: mobile navigation, project category filters, accessible native project
 ## Project directory images
 
 All 24 directory projects open a detail dialog with a reusable screenshot/diagram gallery and a closable enlarged viewer. `src/directory-media.json` maps the images; `src/DirectoryDialog.tsx` renders project approach, capabilities, evidence and source links. Archived development screenshots are used for KP ERP, CareOne (test records), EQA, SolaS (fictional demo providers), the public Space Weather demo and this portfolio. Other entries use explicitly labeled workflow concepts and capability maps based on the documented project summaries. The illustrations are not screenshots or proof of runtime integration. Existing Selected Work illustrations and historical galleries are retained.
+
+## Agentic SDLC examples
+
+The interactive `#agentic-sdlc` section covers six lifecycle stages, with illustrative agent tasks, human decisions, deliverables and twelve links to related project evidence. `src/sdlc.ts` holds the content and mappings; `src/AgenticSdlc.tsx` renders the interactive diagram. Project dialogs include return links to the relevant stage. Deep links support `#projects?project=kp-erp` and `#agentic-sdlc?stage=testing`. The downloadable diagram is `public/agentic-sdlc.svg`; the GitHub-readable guide is [AGENTIC-SDLC.md](AGENTIC-SDLC.md). Examples describe a working approach and do not establish full automation or production completion for linked projects.
