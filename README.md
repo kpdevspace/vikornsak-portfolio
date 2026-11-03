@@ -65,3 +65,7 @@ All 24 directory projects open a detail dialog with a reusable screenshot/diagra
 ## Agentic SDLC examples
 
 The interactive `#agentic-sdlc` section covers six lifecycle stages, with illustrative agent tasks, human decisions, deliverables and twelve links to related project evidence. `src/sdlc.ts` holds the content and mappings; `src/AgenticSdlc.tsx` renders the interactive diagram. Project dialogs include return links to the relevant stage. Deep links support `#projects?project=kp-erp` and `#agentic-sdlc?stage=testing`. The downloadable diagram is `public/agentic-sdlc.svg`; the GitHub-readable guide is [AGENTIC-SDLC.md](AGENTIC-SDLC.md). Examples describe a working approach and do not establish full automation or production completion for linked projects.
+
+## AI cost-reduction examples
+
+The `#ai-costs` section describes six cost-aware processes with twelve project connections. `src/aiCosts.ts` stores the examples, cost drivers, quality gates, measurement proposals and evidence boundaries. `src/AiCostApproach.tsx` provides an interactive diagram; `public/cost-aware-llm.svg` is downloadable and [AI-COST-APPROACH.md](AI-COST-APPROACH.md) is the GitHub-readable guide. Links support `#ai-costs?process=reuse` and return from project dialogs to the relevant process. Content distinguishes documented patterns from proposed extensions, does not claim measured savings, and cites Microsoft/AWS architecture guidance for general methods.
