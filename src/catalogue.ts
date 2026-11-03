@@ -8,7 +8,7 @@ export type CatalogueProject = {
 export const directions: {area: Area; title: string; description: string}[] = [
  {area:'Enterprise systems',title:'Connect the whole workflow',description:'Model business operations, approvals and data relationships across sales, purchasing, inventory and service.'},
  {area:'Healthcare & mobile',title:'Design around care & access',description:'Build web and mobile experiences with role boundaries, clinical workflows and device-aware architecture.'},
- {area:'AI & automation',title:'Make information actionable',description:'Explore document extraction, conversational data access and streaming AI, with explicit review and integration boundaries.'},
+ {area:'AI & automation',title:'Make information actionable',description:'Integrate LLMs across workflows with a focus on AI cost optimization, document processing, analysis and human review.'},
  {area:'Data & governance',title:'Make systems explainable',description:'Connect strategy, capabilities, processes and data through architecture models and traceable governance.'},
  {area:'Platforms & services',title:'Turn a service into a product',description:'Translate product ideas into user roles, end-to-end journeys, modular systems and practical MVPs.'},
  {area:'Teaching & tooling',title:'Build, teach & reuse',description:'Create learning pathways, reusable engineering patterns and accessible tools for communicating complex information.'},

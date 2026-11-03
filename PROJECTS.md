@@ -16,7 +16,7 @@ Build web and mobile experiences with role boundaries, clinical workflows and de
 
 ### AI & automation: Make information actionable
 
-Explore document extraction, conversational data access and streaming AI, with explicit review and integration boundaries.
+Integrate LLMs across workflows with a focus on AI cost optimization, document processing, analysis and human review.
 
 ### Data & governance: Make systems explainable
 

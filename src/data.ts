@@ -1,6 +1,6 @@
 export const profile = {
   name: 'Vikornsak Raknoo', email: 'vikornsak@gmail.com', location: 'Nakhon Pathom, Thailand',
-  intro: 'I lead the Digital Innovation and Information Data Division at ONESQA, connecting technology, data and AI to support education quality assessment.',
+  intro: 'I lead digital innovation and information data at ONESQA, with a focus on data, AI and cost-aware LLM integration across end-to-end workflows.',
 }
 export type Project = { id: string; title: string; client: string; category: 'Enterprise' | 'Research' | 'Healthcare'; summary: string; detail: string; stack: string[]; visual: string; scope: string[] }
 export const projects: Project[] = [
@@ -23,4 +23,5 @@ export const expertise = [
  {title:'Digital innovation',icon:'lightbulb',text:'Connecting organizational needs with technology strategy, practical software and well-defined workflows.',skills:['Technology leadership','Product & service design','Enterprise systems','Process improvement']},
  {title:'Data & intelligence',icon:'database',text:'Designing data architecture, reporting and information systems that make evidence easier to use and understand.',skills:['Data architecture','SQL Server','Power BI','Reporting systems','Data governance']},
  {title:'AI & automation',icon:'brain',text:'Developing document-processing tools and exploring AI-assisted analysis with traceable evidence and human review.',skills:['Document intelligence','Conversational data','Federated learning','Human-in-the-loop']},
+ {title:'AI cost optimization & LLM workflows',icon:'brain',text:'Designing LLM-enabled workflows to reduce AI and operational costs across document intake, analysis, drafting, reporting and review.',skills:['LLM integration','Cost-aware AI','Workflow automation','Process optimization']},
 ]
