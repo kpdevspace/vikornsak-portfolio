@@ -16,7 +16,7 @@ Build web and mobile experiences with role boundaries, clinical workflows and de
 
 ### AI & automation: Make information actionable
 
-Integrate LLMs across workflows with a focus on AI cost optimization, document processing, analysis and human review.
+Integrate LLMs across workflows with a focus on AI cost optimization, document processing, analysis, agent-assisted software delivery and human review.
 
 ### Data & governance: Make systems explainable
 
